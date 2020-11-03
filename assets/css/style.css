@@ -38,3 +38,41 @@ footer {
 .panel, .form-control, .btn {
     border-radius: 0;
 }
+
+.well {
+    padding: 0;
+    border-radius: 0;
+}
+
+
+.col-lg-3, .col-md-3, .col-sm-2, .col-xs-2 {
+    padding-left: 0;
+
+}
+
+.article-container {
+    background-color: rgb(239, 255, 236);
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.article-header {
+    padding-left: 2%;
+}
+
+.article-text {
+    padding-left: 2%;
+}
+
+.article-text p {
+    font-size: 120%;
+}
+
+.article-container img {
+    max-width: 40%;
+    height: auto;
+    object-fit: cover;
+}
